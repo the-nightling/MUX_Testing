@@ -152,7 +152,7 @@ void Timer_Configuration(void)
 
 	TIM_TimeBaseStructInit(&TIM_TimeBaseStructure);
 
-	TIM_TimeBaseStructure.TIM_Period = 84000000-1;
+	TIM_TimeBaseStructure.TIM_Period = 8-1;
 	TIM_TimeBaseStructure.TIM_Prescaler = 1-1;
 	TIM_TimeBaseStructure.TIM_ClockDivision = 0;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
